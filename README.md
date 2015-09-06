@@ -4,7 +4,7 @@ A script to list your Facebook notifications on a terminal.
 It doesn't use external dependancies or graph API.
 
 ## Configuration:
-Open this [page]('http://www.facebook.com/notifications') and open the RSS button. You must be logged in to Facebook.
+Open this [page](http://www.facebook.com/notifications) and open the RSS button. You must be logged in to Facebook.
 
 ![Screenshot](http://i.imgur.com/zQTW2jc.png?1)
 
