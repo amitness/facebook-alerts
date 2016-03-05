@@ -9,7 +9,7 @@ notifications = 5  # Number of Notifications
 profile_id = '1XXXXXXXXXXXXXX'
 token = 'write token here'
 url = 'https://www.facebook.com/feeds/notifications.php?id=' + \
-    profile_id + '&viewer=' + profile_id + '&key=' + token + '&format=rss20'
+    profile_id + '&viewer=' + profile_id + '&key=' + token + '&format=json'
 
 
 def get_page(url):
