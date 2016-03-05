@@ -1,7 +1,5 @@
-# Facebook-alerts
-A script to list your Facebook notifications on a terminal.
-
-It doesn't use external dependancies or graph API.
+# facebook-alerts
+Check your facebook notifications from the command line.
 
 ## Configuration:
 Open this [page](http://www.facebook.com/notifications) and click the RSS link. You must be logged in to Facebook.
