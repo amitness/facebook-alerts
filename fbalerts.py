@@ -8,9 +8,8 @@ import json
 notifications = 5  # Number of Notifications
 profile_id = '1XXXXXXXXXXXXXX'
 token = 'write token here'
-url = 'https://www.facebook.com/feeds/notifications.php?id=' + \
-    profile_id + '&viewer=' + profile_id + '&key=' + token + '&format=json'
-
+base_url = 'https://www.facebook.com/feeds/notifications.php?id={0}&viewer={0}&key={1}&format=json'
+url = base_url.format(profile_id, token)
 
 def get_page(url):
     try:
